@@ -20,3 +20,5 @@ console.log(secondLargest([0, 3, 5, 2, 7, 9])); // 7
 // 1. What if array is empty ?
 // 2. What if array has only one element ?
 // 3. What if all elements are the same ?
+// 4. What if array has negative numbers ?
+// 5. What if array has duplicate elements ?
