@@ -46,3 +46,8 @@ var mergeAlt = function (nums1, m, nums2, n) {
 
 console.log(merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
 console.log(mergeAlt([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
+
+// Corner cases to handle
+// 1. Empty array
+// 2. array with 1 element
+// 3. what if index goes out of bound
