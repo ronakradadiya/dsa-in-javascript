@@ -109,3 +109,5 @@ var isPalindromeAlt2 = function (s) {
 console.log(isPalindromeAlt2("A man, a plan, a canal: Panama"));
 console.log(isPalindromeAlt2("race a car"));
 console.log(isPalindromeAlt2(" "));
+// Time complexity = O(n)
+// Space complexity = O(1)
