@@ -28,10 +28,8 @@ var numJewelsInStonesSet = function (jewels, stones) {
     jSet.add(jewels[i]);
   }
 
-  for (let i = 0; i < stones.length; i++) {
-    // O(n)
-    if (jSet.has(stones[i])) {
-      // O(1)
+  for (let i = 0; i < stones.length; i++) { // O(n)
+    if (jSet.has(stones[i])) { // O(1)
       count += 1;
     }
   }
