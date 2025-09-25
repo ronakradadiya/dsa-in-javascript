@@ -76,3 +76,36 @@ console.log(isPalindromeAlt1("race a car"));
 console.log(isPalindromeAlt1(" "));
 // Time complexity = O(n)
 // Space complexity = O(n)
+
+var isPalindromeAlt2 = function (s) {
+  s = s.toLowerCase();
+
+  let left = 0;
+  let right = s.length - 1;
+  let isPalindrome = true;
+
+  while (left < right) {
+    if (!s[left].match(/[a-z0-9]/i)) {
+      left++;
+      continue;
+    }
+
+    if (!s[right].match(/[a-z0-9]/i)) {
+      right--;
+      continue;
+    }
+
+    if (s[left] !== s[right]) {
+      isPalindrome = false;
+      break;
+    }
+
+    left++;
+    right--;
+  }
+
+  return isPalindrome;
+};
+console.log(isPalindromeAlt2("A man, a plan, a canal: Panama"));
+console.log(isPalindromeAlt2("race a car"));
+console.log(isPalindromeAlt2(" "));
