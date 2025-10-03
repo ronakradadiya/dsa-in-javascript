@@ -20,3 +20,6 @@ console.log(largestOddNumber("4206"));
 console.log(largestOddNumber("35427"));
 console.log(largestOddNumber("10133890"));
 console.log(largestOddNumber("239537672423884969653287101"));
+
+// Time complexity: O(n)
+// Space complexity: O(1)
