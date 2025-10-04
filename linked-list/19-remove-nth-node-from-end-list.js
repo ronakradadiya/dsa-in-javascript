@@ -31,6 +31,9 @@ var removeNthFromEnd = function (head, n) {
 
   return sentinel.next;
 };
+// Two pass algo
+// Time complexity - O(n) + O(n) = O(n)
+// Space complexity - O(1)
 
 var removeNthFromEndAlt = function (head, n) {
   let sentinel = new ListNode();
@@ -51,3 +54,6 @@ var removeNthFromEndAlt = function (head, n) {
 
   return sentinel.next;
 };
+// One pass algo
+// Time complexity - O(n)
+// Space complexity - O(1)
