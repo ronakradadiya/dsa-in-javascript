@@ -29,3 +29,7 @@ var addTwoNumbers = function (l1, l2) {
 
   return ansHead.next;
 };
+
+// m - length of first LL, n = length of second LL
+// Time complexity - O(m + n)
+// Space complexity - O(1)
