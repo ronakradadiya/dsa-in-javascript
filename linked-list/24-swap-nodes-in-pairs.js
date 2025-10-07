@@ -32,5 +32,5 @@ var swapPairs = function (head) {
   return sentinel.next;
 };
 
-// Time complexity - O(n)
+// Time complexity - O(n / 2) -> O(n)
 // Space complexity - O(1)
